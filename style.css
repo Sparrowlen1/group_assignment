@@ -180,6 +180,7 @@ ul.navbar li a:hover:not(.active){
     text-align: center;
     font-family: 'barlow',sans-serif;
     padding-top: 10px;
+    font-size: 25px;
 }
 .tech p{
     color: black;
