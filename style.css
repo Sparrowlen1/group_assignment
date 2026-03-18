@@ -202,3 +202,13 @@ ul.navbar li a:hover:not(.active){
     font-size: 100px;
     margin-left: 0px;
 }
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+span{
+    color:aquamarine
+}
