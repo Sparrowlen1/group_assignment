@@ -30,7 +30,7 @@ header{
 .logo p{
     font-weight: bold;
     font-size: 30px;
-    color: blueviolet;
+    color: #5D5FEF;
     font-family:'kaushan Script',cursive;
 }
 ul.navbar{
@@ -83,7 +83,7 @@ ul.navbar li a:hover:not(.active){
     max-width: 60%;
 }
 .desc h1{
-    color: blueviolet;
+    color: #5D5FEF;
 }
 .desc p{
     margin-top: 10px;
@@ -94,13 +94,14 @@ ul.navbar li a:hover:not(.active){
     font-size: 30px;
 }
 #btn-2{
-    border-color: transparent;
+    border-color: #5D5FEF;
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
     cursor: pointer;
     padding: 10px;
+    color:#5D5FEF;
 }
 .class img{
     width: 400px;           
@@ -123,16 +124,24 @@ ul.navbar li a:hover:not(.active){
 }
 .desc2 {
     max-width: 60%;
+    padding-left: 90px;
 }
-.desc2 h2,p{
-    color:black
+.desc2 h6{
+    color:black;
+    font-size: 48px;
 }
 .desc2 h2{
-    color: blueviolet
+    color:#5D5FEF;
+    font-family: 'barlow',sans-serif;
+}
+.desc2 p{
+    color: black;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 .btn {
   padding: 12px 30px;
-  background: rgb(0, 170, 255);
+  background:#5D5FEF ;
   color: white;
   border-radius: 10px;
   text-decoration: none;
@@ -143,9 +152,9 @@ ul.navbar li a:hover:not(.active){
     width: 400px;           
     height: 500px;           
     border-radius: 10px;
-    margin-left:0px;  
+    margin-left:60px;  
     margin-right: 100px;
-    padding: 1px; 
+    padding-left: 0px; 
 }
 .tech{
     background-color: #5D5FEF1A;
@@ -153,14 +162,16 @@ ul.navbar li a:hover:not(.active){
     height: auto;
 }
 .tech h3{
-    color: rgb(124, 23, 207);
+    color: #5D5FEF;
     text-align: center;
+    font-family: 'barlow',sans-serif;
+    padding-top: 10px;
 }
 .tech p{
-    color:rgb(124, 23, 207);
-    font-weight: bold;
+    color: black;
     font-size: 70px;
     text-align: center;
+    font-family: 'barlow', sans-serif;
 }
 .tech i{
     align-items: center;
