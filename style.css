@@ -15,7 +15,7 @@ html, body {
     background-position: center;
 }
 header{
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #5D5FEFC2;
     background-color: white;
 }
 .fa-chalkboard-user{
@@ -31,7 +31,7 @@ header{
     font-weight: bold;
     font-size: 30px;
     color: blueviolet;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'kaushan Script',cursive;
 }
 ul.navbar{
     display: flex;
@@ -75,9 +75,8 @@ ul.navbar li a:hover:not(.active){
     align-items: center;           
     justify-content: space-between;
     padding: 20px;
-    gap: 20px;    
-    border-bottom: 2px solid black;  
-    background-color: rgb(182, 206, 225);           
+    gap: 20px;      
+    background-color: #5D5FEF1A;           
 }
 
 .desc {
@@ -120,7 +119,6 @@ ul.navbar li a:hover:not(.active){
     align-items: center;
     background-color: white;
     color: white;
-    border-bottom: 2px solid black;
  
 }
 .desc2 {
@@ -140,7 +138,6 @@ ul.navbar li a:hover:not(.active){
   text-decoration: none;
   display: inline-block;
   margin-top: 15px;
-  transition: transform 0.3s ease, background 0.3s ease;
 }
 .content2 img{
     width: 400px;           
@@ -151,7 +148,7 @@ ul.navbar li a:hover:not(.active){
     padding: 1px; 
 }
 .tech{
-    background-color: rgb(182, 206, 225);
+    background-color: #5D5FEF1A;
     margin: auto;
     height: auto;
 }
