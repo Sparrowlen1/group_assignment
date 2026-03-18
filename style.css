@@ -21,6 +21,9 @@ header{
 .fa-chalkboard-user{
     font-size: 50px;
     color: brown;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 .logo{
     display: flex;
@@ -41,6 +44,8 @@ ul.navbar{
 }
 ul.navbar li {
     width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 ul.navbar li a{
     text-decoration: none;
@@ -56,7 +61,7 @@ ul.navbar li a:hover:not(.active){
 }
 #btn{
     background-color: transparent;
-    color: blue;
+    color: brown;
     border-color: black;
     padding: 10px 20px;
     font-size: 16px;
@@ -64,6 +69,9 @@ ul.navbar li a:hover:not(.active){
     border-radius: 10px;
     margin-bottom: 10px;
 
+}
+#btn:hover{
+    background-color: aquamarine;
 }
 .fa-binoculars{
     margin-right: 8px;
@@ -81,6 +89,7 @@ ul.navbar li a:hover:not(.active){
 
 .desc {
     max-width: 60%;
+    margin: 70px;
 }
 .desc h1{
     color: #5D5FEF;
@@ -103,13 +112,15 @@ ul.navbar li a:hover:not(.active){
     padding: 10px;
     color:#5D5FEF;
 }
+#btn-2:hover{
+    background-color: aquamarine;
+}
 .class img{
     width: 400px;           
-    height: 500px;           
+    height: 480px;      
     border-radius: 10px;
     margin-left:70px;  
-    margin-right: 300px;
-    padding: 0px;    
+    margin-right: 300px;    
 }
 .content3{
     width: auto;
@@ -147,6 +158,9 @@ ul.navbar li a:hover:not(.active){
   text-decoration: none;
   display: inline-block;
   margin-top: 15px;
+}
+.btn:hover{
+    background-color: aquamarine;
 }
 .content2 img{
     width: 400px;           
